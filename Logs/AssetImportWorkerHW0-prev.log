@@ -1,0 +1,974 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.1f1 (0d9463e84828) revision 889955'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-06-30T08:31:10.6252204Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-30T08:31:10Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+F:/progs/game/SurvivorGame
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+53350
+-parentPid
+15584
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+b1dbc9e8-c8cf-4a46-aba8-d419c2071a5e
+-analyticsLocalProjectId
+98195a6abaaf1154b8c772a32a0f504b
+-licensingIpc
+LicenseClient-User
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: F:/progs/game/SurvivorGame
+F:/progs/game/SurvivorGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [30764]  Target information:
+
+Player connection [30764]  * "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 2480164452 [EditorId] 2480164452 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B5JCFUE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30764] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30764] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Android™.asset`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.5.1" at "2026-06-30T08:31:11.5815193Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 29588, path: "C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              a35ec4f3147b4810a05d64fc5a2f8379
+  Correlation Id:          953a7c8d1a6d828e1a067d4163763ae5
+  External correlation Id: 4432860977224483459
+  Machine Id:              gBmUY8Crzv8WNtKV1Z/Sa3b/l5A=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.5.1" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.5.1-notifications" at "2026-06-30T08:31:11.5881048Z"
+[Licensing::Module] Licensing Background thread has ended after 0.96s
+[Licensing::Module] Licensing is initialized (took 0.83s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171510325431-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Got setting from build profile YAML, name `m_BuildTarget`, value `13`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Refreshing native plugins compatible for Editor in 4.08 ms, found 6 plugins.
+Initialize engine version: 6000.5.1f1 (0d9463e84828)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/progs/game/SurvivorGame/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:          NVIDIA
+    VRAM:            7956 MB
+    App VRAM Budget: 7188 MB
+    Driver:          32.0.16.1062
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+CodeReloadManager initialized
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004437 seconds.
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 975ms
+	BeginReloadAssembly (112ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (110ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (179ms)
+	FinalizeReload (466ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_Development`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 3.56 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.91 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.652 seconds
+Domain Reload Profiling: 4287ms
+	BeginReloadAssembly (229ms)
+		DisableScriptedObjects (31ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (1257ms)
+		LoadAssemblies (387ms)
+		AnalyzeDomain (801ms)
+			TypeCache.Refresh (552ms)
+				TypeCache.ScanAssembly (512ms)
+			BuildScriptInfoCaches (235ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2653ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (1163ms)
+			ProcessInitializeOnLoadMethodAttributes (998ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 6 plugins.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 10734 unused Assets / (22.9 MB). Loaded Objects now: 11647.
+Memory consumption went from 495.0 MB to 472.1 MB.
+Total: 27.584300 ms (FindLiveObjects: 1.129400 ms CreateObjectMapping: 4.818100 ms MarkObjects: 15.167600 ms  DeleteObjects: 6.466600 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.42 ms, found 6 plugins.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (13.7 MB). Loaded Objects now: 11647.
+Memory consumption went from 483.2 MB to 469.5 MB.
+Total: 22.094800 ms (FindLiveObjects: 0.616700 ms CreateObjectMapping: 2.014800 ms MarkObjects: 16.996700 ms  DeleteObjects: 2.465200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.4918584Z
+  Time since last request: 522889.36669639998581 seconds.
+  importAddress: GUID: 2a1f3cba20f3e11498474a705db12fde - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2a1f3cba20f3e11498474a705db12fde - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2a1f3cba20f3e11498474a705db12fde' -> (Import Result ID: '07672a33887227459f2ac9b87f06ae84') in 0.151 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dec26fb3a2aeac4304f5b053fce4bdb1 DependenciesID=d74d8e297b807e0e07244fe987f67dbb StaticDependenciesID=14bb68aa1bec226660063d79fa60a5ff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.6757307Z
+  Time since last request: 0.0144991 seconds.
+  importAddress: GUID: ec536a7718376554185e4a856d5ae230 - Path: Assets/Joystick Pack/Prefabs/Variable Joystick.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ec536a7718376554185e4a856d5ae230 - Path: Assets/Joystick Pack/Prefabs/Variable Joystick.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ec536a7718376554185e4a856d5ae230' -> (Import Result ID: '90d4681e4672611b617f5fca35a2cb6d') in 0.061 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82a94be0accf3af1928f7a73124b8344 DependenciesID=b7f2dd63032a0299808f6244c5c3f529 StaticDependenciesID=ba4d03d8dfb731393d9b97ef1e566ee7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.7559081Z
+  Time since last request: 0.0003237 seconds.
+  importAddress: GUID: 8aa722dd254de714f898d787bd97bb53 - Path: Assets/Resources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8aa722dd254de714f898d787bd97bb53 - Path: Assets/Resources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8aa722dd254de714f898d787bd97bb53' -> (Import Result ID: '8e628d61303e96b86272d0cf2c0b94bf') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df6a8ab7c9ca8773c19f22423b097282 DependenciesID=d93046c10837f44da4f420d0b0e41d8c StaticDependenciesID=aa529bfd4e2d24fcfc44eac4be8a7d8b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.7776607Z
+  Time since last request: 0.0004548 seconds.
+  importAddress: GUID: 8ca78f589dc53fd419c85dd20ea22ade - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8ca78f589dc53fd419c85dd20ea22ade - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8ca78f589dc53fd419c85dd20ea22ade' -> (Import Result ID: '315bf8516650d14e9be142b3d8718292') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d41c1ca8fdeb8d1b89d8fdc8e91592b DependenciesID=7c4af92bcdd3ad2bf9b3d67fb8c14886 StaticDependenciesID=228ee80f9db64179b571517dc3bb54d7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.7987133Z
+  Time since last request: 0.000519 seconds.
+  importAddress: GUID: f054197ef28924b4986cbd91de2ab054 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f054197ef28924b4986cbd91de2ab054 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f054197ef28924b4986cbd91de2ab054' -> (Import Result ID: '1a5b26950489ee47099f0ce06b3fdb83') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=823f3df4d66841708f1b6695f12adcbb DependenciesID=ffffee4b7507dba9b5e9454474a05b77 StaticDependenciesID=825892635df29d5e387d2b20e8927afb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.8265606Z
+  Time since last request: 0.0004742 seconds.
+  importAddress: GUID: b8467ea5fbaf9ba42908de6411bd443d - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b8467ea5fbaf9ba42908de6411bd443d - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b8467ea5fbaf9ba42908de6411bd443d' -> (Import Result ID: '8c74a57a63cb29645bd2871c7dc45f75') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0cede31bffda029a41833c4adfee11d DependenciesID=3f891a77df12490c1e2f5e389e1f80a3 StaticDependenciesID=b6384465d09b8fe43130f3a5436cae92 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.8562337Z
+  Time since last request: 0.0004662 seconds.
+  importAddress: GUID: 56fae09712773584fb63896d473a98ee - Path: Assets/Joystick Pack/Prefabs/Dynamic Joystick.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 56fae09712773584fb63896d473a98ee - Path: Assets/Joystick Pack/Prefabs/Dynamic Joystick.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 56fae09712773584fb63896d473a98ee' -> (Import Result ID: '09b4e1db11529bfefd67e92d6c334d97') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3219ebb96d8c8795dfe4fcd7ec73bee0 DependenciesID=1faf40986ddbba16625f9af32ba3cb8b StaticDependenciesID=7cff27f0ec71122983fb0f49ef1fc5cb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.8838001Z
+  Time since last request: 0.0002693 seconds.
+  importAddress: GUID: f36f8459cb8c3fd44ba4390ba9652af8 - Path: Assets/Joystick Pack/Sprites - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f36f8459cb8c3fd44ba4390ba9652af8 - Path: Assets/Joystick Pack/Sprites - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f36f8459cb8c3fd44ba4390ba9652af8' -> (Import Result ID: '7ee55f0b99f64cbd98263242ef845c84') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2fd308abcf9009e2d238232fe98ec36 DependenciesID=28dec9cd8301a0fb3cc0109ec90d77d4 StaticDependenciesID=a0b8f98a404f05a8a3be1cac14c87245 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.9005335Z
+  Time since last request: 0.0004442 seconds.
+  importAddress: GUID: 5eda94a9dcf71e445ad17e3c065d1460 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5eda94a9dcf71e445ad17e3c065d1460 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5eda94a9dcf71e445ad17e3c065d1460' -> (Import Result ID: 'bd0b3606f72c9e00b97f78d01c0f6154') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=235d05def13dab1767b7284626dd154f DependenciesID=f4c0e0fb9512a0d96719fbd90b6d2f85 StaticDependenciesID=0c173be1ffef5e1ef102a22f73a2b0fe 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.9437942Z
+  Time since last request: 0.0003541 seconds.
+  importAddress: GUID: 4fe6b423a92ebaf4bb564f9457fa74e4 - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4fe6b423a92ebaf4bb564f9457fa74e4 - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4fe6b423a92ebaf4bb564f9457fa74e4' -> (Import Result ID: 'c9f50c158fa2754b949fe58804c75bfb') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13ac992c3c75384d1c4f7327a3bb12c3 DependenciesID=244f8126fad5509932ee23d247197d7e StaticDependenciesID=0b47834d07491b21292919222b5b02e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.9656417Z
+  Time since last request: 0.0006103 seconds.
+  importAddress: GUID: 614d06243900d764f9c50b4da2c950a3 - Path: Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 614d06243900d764f9c50b4da2c950a3 - Path: Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 614d06243900d764f9c50b4da2c950a3' -> (Import Result ID: '614c4c04b5fd09ad11c6d1bbdcdefa34') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abe16b6f352eda662f6643246cb57914 DependenciesID=0aecc8f4c81b9646e4b3090a8b636325 StaticDependenciesID=b5dbfa4b9d22bfc15fc8c3f34aea69b8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:22.9896025Z
+  Time since last request: 0.0005944 seconds.
+  importAddress: GUID: c569c280f0eb52a49a7b2a6b8b0cbcf8 - Path: Assets/Joystick Pack/Examples/Ground.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c569c280f0eb52a49a7b2a6b8b0cbcf8 - Path: Assets/Joystick Pack/Examples/Ground.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c569c280f0eb52a49a7b2a6b8b0cbcf8' -> (Import Result ID: '91c4a2c5b4141fab041de7beee9095b2') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcc8a4ae7296b7f1b2f885f6ff2aa130 DependenciesID=a9d7e030f36c8c549f76d97300fd4566 StaticDependenciesID=19bf940112c9a2dfc34537f2f800c5aa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.0228952Z
+  Time since last request: 0.0004803 seconds.
+  importAddress: GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: '80ce38decf644544b6a6afd63f526c7d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f14268c174abb86b6a9eea1ea5ab72a DependenciesID=c839839a81e912a2f23944246bf97777 StaticDependenciesID=1352329b48b88df833ee1d9edd24ef08 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.043563Z
+  Time since last request: 0.0005155 seconds.
+  importAddress: GUID: 6304ad603f150b649b764d29bbc2a87b - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6304ad603f150b649b764d29bbc2a87b - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6304ad603f150b649b764d29bbc2a87b' -> (Import Result ID: '7d53fa2775c0958a4c9251fbe82ba1fb') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afc7e6344d7a2428dbd2693cb665f58b DependenciesID=07a6bd2247c79b43366479ccb85fc241 StaticDependenciesID=73d245e3288b9dee33cad81d6a464cd8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.0692388Z
+  Time since last request: 0.0004827 seconds.
+  importAddress: GUID: 7a47f546fc70ec8428172694e78e4288 - Path: Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7a47f546fc70ec8428172694e78e4288 - Path: Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7a47f546fc70ec8428172694e78e4288' -> (Import Result ID: 'c250b6612db8673b986726c8aafd4263') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da77f9e0f4cc85f11a7435fd42b3944e DependenciesID=dd9455fd3680f4017a55832b87f87bef StaticDependenciesID=a0a0559381bfbaa51c33c703a13c09a2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.0897675Z
+  Time since last request: 0.0004418 seconds.
+  importAddress: GUID: 5b56d9fa0e8bd6e409ed188db38a692c - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5b56d9fa0e8bd6e409ed188db38a692c - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5b56d9fa0e8bd6e409ed188db38a692c' -> (Import Result ID: 'a962717d685189d74358634cccf64f03') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cad51043345f4b079e561ef6f7f2e156 DependenciesID=efb01035835fa51bd88df57fcf3a9534 StaticDependenciesID=4e653eb00f76b11719e2d83a62cfafc8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.1146656Z
+  Time since last request: 0.0003742 seconds.
+  importAddress: GUID: 04bf1fec540b6ee4987dc6524756477c - Path: Assets/Joystick Pack/Scripts/Base - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 04bf1fec540b6ee4987dc6524756477c - Path: Assets/Joystick Pack/Scripts/Base - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 04bf1fec540b6ee4987dc6524756477c' -> (Import Result ID: 'dc2449a288810439a4e36aa2ace7aa90') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=512af3a76d0053c96f99ef5838c13403 DependenciesID=5de377227e2275ea6e4511d6c68ffff4 StaticDependenciesID=8507a5e4d6119939c5e6067ce5e5e430 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.1316158Z
+  Time since last request: 0.0003989 seconds.
+  importAddress: GUID: 097782735540f2d4db5606eae04ae6a7 - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 097782735540f2d4db5606eae04ae6a7 - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 097782735540f2d4db5606eae04ae6a7' -> (Import Result ID: 'feb61b0159534be2d484b2bbefd14bd3') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57c5c0ab6cb3200181e03366ecf334e4 DependenciesID=77c48a6aa5bca62f0170324d90ee6c99 StaticDependenciesID=3e41dbec7126a54b61faf2fbf1581d8b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.1728565Z
+  Time since last request: 0.0004682 seconds.
+  importAddress: GUID: 59e4faf24927edf4a82f463ad16f1c37 - Path: Assets/Joystick Pack/Examples/Player.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 59e4faf24927edf4a82f463ad16f1c37 - Path: Assets/Joystick Pack/Examples/Player.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 59e4faf24927edf4a82f463ad16f1c37' -> (Import Result ID: '08119a24c848b45344f7b84e50b22069') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bff16bb9c38afc487f5c77ef10c1bd10 DependenciesID=f83dd83baedb1d78a10b6db8f6ce849a StaticDependenciesID=ba0f9404beffb7a5ab6a141d533d7714 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.2052822Z
+  Time since last request: 0.0003599 seconds.
+  importAddress: GUID: 07b685cbd69eaf049b40883b45f5bae2 - Path: Assets/Joystick Pack/Scripts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 07b685cbd69eaf049b40883b45f5bae2 - Path: Assets/Joystick Pack/Scripts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 07b685cbd69eaf049b40883b45f5bae2' -> (Import Result ID: '36f3c820c9b5623351f9b4ff22aa3ac6') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29d3119b6f8507cfdfc3514720e5c497 DependenciesID=88131756719d506ecdbaee2381d8aa5c StaticDependenciesID=64f59510195cd26da7f0973f4113be75 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.2224366Z
+  Time since last request: 0.000433 seconds.
+  importAddress: GUID: 42844a4fccbd54746b90cade4ff70f73 - Path: Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 42844a4fccbd54746b90cade4ff70f73 - Path: Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 42844a4fccbd54746b90cade4ff70f73' -> (Import Result ID: 'd2aa6aa1c18b5002a47c1e20e32b4898') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8dd3107bd1f91fd09966d3dcbc36a0d8 DependenciesID=49a35c9cfdc98bd3056982a2f4a7fa98 StaticDependenciesID=12acadf0732eb3855c692a412c81ea0d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.2389713Z
+  Time since last request: 0.0004315 seconds.
+  importAddress: GUID: d4b2b0d911a01a64ebfca9918e2b90b4 - Path: Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d4b2b0d911a01a64ebfca9918e2b90b4 - Path: Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d4b2b0d911a01a64ebfca9918e2b90b4' -> (Import Result ID: '5bb0aeec99bec0c0e698b853f0b13b25') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a9a8dd1b75c4ac9357e9b0e86942ab1 DependenciesID=460e52625364df34c3f2721b86511fda StaticDependenciesID=0d7fe8b19797422b40fdbbe1b5c63840 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.2560889Z
+  Time since last request: 0.0004431 seconds.
+  importAddress: GUID: 414bddd31c5ea4f4c9f5d1452e5bbb41 - Path: Assets/Joystick Pack/Examples/Example Scene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 414bddd31c5ea4f4c9f5d1452e5bbb41 - Path: Assets/Joystick Pack/Examples/Example Scene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 414bddd31c5ea4f4c9f5d1452e5bbb41' -> (Import Result ID: '84c27e2a90d262bcfe883275ad3798b8') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44427d010aff3d429cd9ce9b08cb66c0 DependenciesID=85d90fc9483f9e9310e473292e7afe00 StaticDependenciesID=90f13292c0c4953335ef223bff08e1b4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.2775197Z
+  Time since last request: 0.00042 seconds.
+  importAddress: GUID: 6f3c65e147711ac449f6bbd5e7da81df - Path: Assets/Joystick Pack/Sprites/Handles - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6f3c65e147711ac449f6bbd5e7da81df - Path: Assets/Joystick Pack/Sprites/Handles - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6f3c65e147711ac449f6bbd5e7da81df' -> (Import Result ID: '1b09233ce5f396c1bd582c0e5d449ca4') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d67c7365b3f0a43d3b1ac4c0ab08afc DependenciesID=f0e4c77b5a0d94bfc462d2614f1c9a6e StaticDependenciesID=dd8fcec9da8773ce5163bb0b04bed2be 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.2941755Z
+  Time since last request: 0.000421 seconds.
+  importAddress: GUID: 3d73bf03f88f371469fd7b43fc97d77e - Path: Assets/Joystick Pack/Examples/JoystickSetterExample.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3d73bf03f88f371469fd7b43fc97d77e - Path: Assets/Joystick Pack/Examples/JoystickSetterExample.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3d73bf03f88f371469fd7b43fc97d77e' -> (Import Result ID: '25ee77c2132bbbb16d885051c9fe6406') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=667b9b65b4de68d5e8a91e571ab715cb DependenciesID=71076a2ff42f2bb1816cfb0582c3e543 StaticDependenciesID=d9932f7164dcc57ac9e8996e511745f6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.3120819Z
+  Time since last request: 0.0004707 seconds.
+  importAddress: GUID: ab6db91373811284caeba2e9472fa9c2 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ab6db91373811284caeba2e9472fa9c2 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ab6db91373811284caeba2e9472fa9c2' -> (Import Result ID: '0725600ed921f41ffc9e8c862c2f1716') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d58b0c77d5c301adf1a188ce76945041 DependenciesID=3fcab4b3765c953d8fc3f6cfc3788205 StaticDependenciesID=f4408231b0a62d793f90ed55ca88912c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.3410283Z
+  Time since last request: 0.0004594 seconds.
+  importAddress: GUID: c8585b68a92b5d440992ddd7d1b1a3d6 - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c8585b68a92b5d440992ddd7d1b1a3d6 - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c8585b68a92b5d440992ddd7d1b1a3d6' -> (Import Result ID: 'de3b25498f7c1ba7a2ff576cfed25738') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4df0bc4765bbae7847b360b1a598acf0 DependenciesID=3a6edb972d91e56c24a4ddb2f2380519 StaticDependenciesID=3339e017caa1f721d1096cca848ea454 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.3669808Z
+  Time since last request: 0.0004504 seconds.
+  importAddress: GUID: 3a74f678ee8f3bd49aacf3de1ae4bcaa - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Ridged.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3a74f678ee8f3bd49aacf3de1ae4bcaa - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Ridged.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3a74f678ee8f3bd49aacf3de1ae4bcaa' -> (Import Result ID: '0f4755934a930578e0f23b2b82f1abbc') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6cccec43e66f36cc66f32d640fbcd66 DependenciesID=26f8f0eb23008d5b6b9548884ff409b0 StaticDependenciesID=f837c528ba3866c075fc7806f93d3116 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.3893602Z
+  Time since last request: 0.0004153 seconds.
+  importAddress: GUID: b9fca4100a7477741b3973b4ff2c405f - Path: Assets/Joystick Pack/Scripts/Base/Joystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b9fca4100a7477741b3973b4ff2c405f - Path: Assets/Joystick Pack/Scripts/Base/Joystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b9fca4100a7477741b3973b4ff2c405f' -> (Import Result ID: '8ee9f972fca14af214b8a79d62265b43') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f52b860ada847090b1b0465c777acea8 DependenciesID=926f0d700269b1811d4c08fed03e337f StaticDependenciesID=d9fae41aca9587274dc15cb804348fdc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.4061536Z
+  Time since last request: 0.0004241 seconds.
+  importAddress: GUID: 84487d73ca4b791498332d8f6858417f - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 84487d73ca4b791498332d8f6858417f - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 84487d73ca4b791498332d8f6858417f' -> (Import Result ID: 'ec843084caacc978a8ed8901f447d792') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5b9c8fd3ade5be26f6b97daa7c4aa15 DependenciesID=f69a8feea9717ab420441b1198d4e28f StaticDependenciesID=db156ec69e1bac116b3be1a251df77ce 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.4312621Z
+  Time since last request: 0.0003811 seconds.
+  importAddress: GUID: f353d42d1db27ff42b78b28efd86b316 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f353d42d1db27ff42b78b28efd86b316 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f353d42d1db27ff42b78b28efd86b316' -> (Import Result ID: 'b66fd787337b595caed697637df5cd2d') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d04235f012bceeb4c684eaf81d795570 DependenciesID=381914b72e1a2ede787a95808d26b238 StaticDependenciesID=bd3487333ffca8cc07727d266d1cee48 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.453431Z
+  Time since last request: 0.0004383 seconds.
+  importAddress: GUID: 500f4de2fbabd8e489f00c61e5595deb - Path: Assets/Resources/PerformanceTestRunSettings.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 500f4de2fbabd8e489f00c61e5595deb - Path: Assets/Resources/PerformanceTestRunSettings.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 500f4de2fbabd8e489f00c61e5595deb' -> (Import Result ID: '44b3304848c6c067e31c8081381b2a41') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0addda445c697771493bd38aed6f4ea0 DependenciesID=d59bb03ce2c99148f817ee6f957ff782 StaticDependenciesID=a39ac63a1e0e28d206d8ca0bd2c38da3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.4711176Z
+  Time since last request: 0.0004703 seconds.
+  importAddress: GUID: 08c1fa6351174a9439d97cfc9d3307cc - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 08c1fa6351174a9439d97cfc9d3307cc - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 08c1fa6351174a9439d97cfc9d3307cc' -> (Import Result ID: '9e41d3306f2ea212288c1f34cba88fa3') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43fe2e048dd349c5d964bb498ab79579 DependenciesID=466865cdf9e593b645297aa7912438fb StaticDependenciesID=e0e76b168250cf2c4f3a53717cbd597b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.5184273Z
+  Time since last request: 0.0003664 seconds.
+  importAddress: GUID: 7927b9032dc11e841af3f9a1353d7ecd - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7927b9032dc11e841af3f9a1353d7ecd - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7927b9032dc11e841af3f9a1353d7ecd' -> (Import Result ID: 'dc0a0fd90e2e4e7795f773aded210549') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5e4bf4bbe8d3dfdcad191aee5e41b9e DependenciesID=5806b5a17d91d30c0d754448f74cb5b4 StaticDependenciesID=f1172bce8d91dd432d0896c925528e17 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.5417762Z
+  Time since last request: 0.0003392 seconds.
+  importAddress: GUID: aaa2c939c0359ac4dbce3f49e8b90252 - Path: Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: aaa2c939c0359ac4dbce3f49e8b90252 - Path: Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: aaa2c939c0359ac4dbce3f49e8b90252' -> (Import Result ID: '18467f32cbe241ddda08086116f28ce9') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce03afeeddd120a52f239cb41a1a346a DependenciesID=ea4bbaa8e8f36115eff03ba70781bd00 StaticDependenciesID=c2ae36c77e58806f7e3075281f5f2cd5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.5644219Z
+  Time since last request: 0.00027 seconds.
+  importAddress: GUID: 54628aafa20f64b40ae661038ee7abf0 - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 54628aafa20f64b40ae661038ee7abf0 - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 54628aafa20f64b40ae661038ee7abf0' -> (Import Result ID: '27ba957ffd6e7ea4421b94bc3caa6582') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1485e2ed23b91d4bee60e35b9d19ebba DependenciesID=df2d8eb9c546a20b014857b30fd40c46 StaticDependenciesID=3e114b175378dc39001d9f2340b6f006 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.5890299Z
+  Time since last request: 0.0004142 seconds.
+  importAddress: GUID: 085185b08a40a924985bc0e4176edea6 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 085185b08a40a924985bc0e4176edea6 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 085185b08a40a924985bc0e4176edea6' -> (Import Result ID: '4a7e9d153fae6f891cd0c8bf68909470') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efb635b4e9fc38bb68a8940e1d34e3df DependenciesID=6c4740b32d72aa75aac91bd537ac3daf StaticDependenciesID=f6cc20ac512a79c694759e579af57438 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.6088212Z
+  Time since last request: 0.0003758 seconds.
+  importAddress: GUID: cfa813ed406827e43b967abd54ab5b9a - Path: Assets/Joystick Pack/Documentaion.pdf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cfa813ed406827e43b967abd54ab5b9a - Path: Assets/Joystick Pack/Documentaion.pdf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cfa813ed406827e43b967abd54ab5b9a' -> (Import Result ID: '0fbf8eeaa30ac310b737659d985f779b') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85722e543e61c1d9a386a6776e399fd8 DependenciesID=c13dc8c67becf570677cf9417d2a09f9 StaticDependenciesID=299e42f5f8d107a12d6085ad0571cd14 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.6264026Z
+  Time since last request: 0.0003802 seconds.
+  importAddress: GUID: 4cbc879550e5e374a925e2e0a84d6f3c - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4cbc879550e5e374a925e2e0a84d6f3c - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4cbc879550e5e374a925e2e0a84d6f3c' -> (Import Result ID: 'ad215d60529105db9e717c1300fe012b') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db54aca715cbffa43e710635437a77a8 DependenciesID=4e733cc03785712fe85b3cd94b5ad11c StaticDependenciesID=0a32e048c57456396a5d16a50cb64c3a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.6540149Z
+  Time since last request: 0.0003662 seconds.
+  importAddress: GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 681886c5eb7344803b6206f758bf0b1c' -> (Import Result ID: 'b5e2459bf6f7c1ac6d2bc899108ddee5') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba259a5daf2ce396d3bb2f838c361f7a DependenciesID=10517ec0f176cb09dd21d0a4a03bc7df StaticDependenciesID=7c3da0085bc723edfd6b1028339225df 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.7054586Z
+  Time since last request: 0.000341 seconds.
+  importAddress: GUID: 52071c88a467b46438b3cbf159bf988b - Path: Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 52071c88a467b46438b3cbf159bf988b - Path: Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 52071c88a467b46438b3cbf159bf988b' -> (Import Result ID: '1967e975db21f83e74012eddd9789c78') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c38afd64bb4f73fef6b69389b73d62a DependenciesID=511fdc081c780c9585a98a5ccc1d9484 StaticDependenciesID=ce62e894f8ce165dce3530b36fa081ca 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.7206273Z
+  Time since last request: 0.0004001 seconds.
+  importAddress: GUID: 216e85c6ea13dba4da38e51206bb3e26 - Path: Assets/Joystick Pack - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 216e85c6ea13dba4da38e51206bb3e26 - Path: Assets/Joystick Pack - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 216e85c6ea13dba4da38e51206bb3e26' -> (Import Result ID: '3c0609f06987d42d5d5f2182c2345def') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8d01948409b230954868ca303ac371c DependenciesID=652990fc1fe8611c6417daf0a46527dc StaticDependenciesID=5d41e5204f41e76955ccbdd64f107652 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.7371742Z
+  Time since last request: 0.0003367 seconds.
+  importAddress: GUID: ae2b07c652922d44d9fe360eb6451c6d - Path: Assets/Settings/Build Profiles/Android™.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ae2b07c652922d44d9fe360eb6451c6d - Path: Assets/Settings/Build Profiles/Android™.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ae2b07c652922d44d9fe360eb6451c6d' -> (Import Result ID: 'a21297a99b9730fb0e40f69f4ae49262') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f1e65acdd5a927f056d8fdfdb654f0c DependenciesID=bf1002feffbc559cad5ec918a5430ae6 StaticDependenciesID=3b84bd698c3fb15d56ecc0fd515168e3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.7573658Z
+  Time since last request: 0.0003793 seconds.
+  importAddress: GUID: cd0a2c1b2c014ba4c80c1df786e150e9 - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cd0a2c1b2c014ba4c80c1df786e150e9 - Path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cd0a2c1b2c014ba4c80c1df786e150e9' -> (Import Result ID: '78f15505f935a156781831d66c5fd862') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c356c7d4340fb8cd2c0b01bf59c486b9 DependenciesID=d89f91c3062b0d02c8be860466fc10a1 StaticDependenciesID=c2e78f67088ea53fe1180f3e130469a8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.7841118Z
+  Time since last request: 0.0003468 seconds.
+  importAddress: GUID: 45977bbae16431c46a013576a1aea384 - Path: Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 45977bbae16431c46a013576a1aea384 - Path: Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 45977bbae16431c46a013576a1aea384' -> (Import Result ID: 'e68f9d7b4e4903a4af308b57ef2e834a') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63423e3dbc5450f3115d9effa6cb0ac4 DependenciesID=d10739e4cca92a8e1cf800c9edd46a8e StaticDependenciesID=ba99beb2aeab074dff18392d537bd1e0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.8004818Z
+  Time since last request: 0.0003921 seconds.
+  importAddress: GUID: 48c0d4d6bebaa934384b07aa1e2f8184 - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 48c0d4d6bebaa934384b07aa1e2f8184 - Path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 48c0d4d6bebaa934384b07aa1e2f8184' -> (Import Result ID: 'c3aecf81c0ea60f6e72d4724231c7da1') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6672fc05f6bf61e6ecadb3624e8413e DependenciesID=eb70c684ab77a248b7935f115d3b9c2b StaticDependenciesID=ec6da4ba3e3b41e247a715f693601a1b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.8254826Z
+  Time since last request: 0.0003588 seconds.
+  importAddress: GUID: 8bf1b896f4e24d441975cb6f11f92e74 - Path: Assets/Joystick Pack/Scripts/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8bf1b896f4e24d441975cb6f11f92e74 - Path: Assets/Joystick Pack/Scripts/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8bf1b896f4e24d441975cb6f11f92e74' -> (Import Result ID: '81ae9a91fc327220a8baa9cc1bc0de0c') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e27a944028db8dbcfcb3d9f0a5b7164 DependenciesID=8107882116fc1d5e8f080e096a1ae009 StaticDependenciesID=ba9a763cd9b06fd9690759d1dff99ba9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.8480891Z
+  Time since last request: 0.0004971 seconds.
+  importAddress: GUID: 58b5a2db95af76c4c9d4116a09ec3697 - Path: Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 58b5a2db95af76c4c9d4116a09ec3697 - Path: Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 58b5a2db95af76c4c9d4116a09ec3697' -> (Import Result ID: '5229f46cda790cef4dbedc808bc979af') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1073b09a28283d6dd2b85edd9ac31862 DependenciesID=5cfd1f6203a2e5438ad1a44cd315aae4 StaticDependenciesID=93c8f208fe27f61aa471e6bfec9afee5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.8642284Z
+  Time since last request: 0.0003835 seconds.
+  importAddress: GUID: 9332cf0d233636a40a024382720294a3 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9332cf0d233636a40a024382720294a3 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9332cf0d233636a40a024382720294a3' -> (Import Result ID: 'cc08ba75ee75dfe9a19768829250181f') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c645a4a2936084d5a36a6adb6eec7d3a DependenciesID=84f9bb315700cbb0c17e27b0852bd6ff StaticDependenciesID=3154422dcc93160e514b3f373701c169 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.8880391Z
+  Time since last request: 0.0004155 seconds.
+  importAddress: GUID: 30f674d88470a814e8648e216b61b9ef - Path: Assets/Joystick Pack/Scripts/Joysticks - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 30f674d88470a814e8648e216b61b9ef - Path: Assets/Joystick Pack/Scripts/Joysticks - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 30f674d88470a814e8648e216b61b9ef' -> (Import Result ID: '78bc6c3cb6107ca0216231e048b0586a') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1030de75f52ff5f4e49bc747ebe4cede DependenciesID=b42368ab7065dcd5bd06bc789a6845eb StaticDependenciesID=1758dbf4be1e34b462a9b0cfdeedae30 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.9053227Z
+  Time since last request: 0.0003669 seconds.
+  importAddress: GUID: 90487ea2fbd75ca4aafda6529e728976 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 90487ea2fbd75ca4aafda6529e728976 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 90487ea2fbd75ca4aafda6529e728976' -> (Import Result ID: '3b351739603c08c96660ed6cb2eaee1d') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc45cddcb6af949fbfe8ffdcf1673878 DependenciesID=9ab82d7b488d2af708aa75e498fd8cc7 StaticDependenciesID=791f14f9b23a7d0367d2b602511fc3ea 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.9223607Z
+  Time since last request: 0.0006194 seconds.
+  importAddress: GUID: a6c56474666ce0647bdb766e9b4764b3 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a6c56474666ce0647bdb766e9b4764b3 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a6c56474666ce0647bdb766e9b4764b3' -> (Import Result ID: '13eab9e2e9985914c8631eff4524c9af') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0478fa1f50b4b8e4883c126191995aed DependenciesID=c1d77298fef73db860a45abc1d0a6ec5 StaticDependenciesID=f5540773f1cde13a383ee03576542f43 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.9468437Z
+  Time since last request: 0.0003987 seconds.
+  importAddress: GUID: 42eddd59699acc84ab9319766953c861 - Path: Assets/Resources/PerformanceTestRunInfo.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 42eddd59699acc84ab9319766953c861 - Path: Assets/Resources/PerformanceTestRunInfo.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 42eddd59699acc84ab9319766953c861' -> (Import Result ID: 'a2ef73c1f847cc69993f9982c4f73544') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a0db34858f2561426b918c8f9560d19 DependenciesID=281eef6c4455209d3ffe5de31694f5de StaticDependenciesID=17eb790ed62fe8b3504b5f78582f41dc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.9662101Z
+  Time since last request: 0.0003601 seconds.
+  importAddress: GUID: d41e4075f56d1e1438b3af3673ec6081 - Path: Assets/Joystick Pack/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d41e4075f56d1e1438b3af3673ec6081 - Path: Assets/Joystick Pack/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d41e4075f56d1e1438b3af3673ec6081' -> (Import Result ID: '7d52b9aba34ef453b995fd698fb42e23') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2b7b9de52992a1616ba4108f4ab0241 DependenciesID=151c4b6b24ef2a12ae9af4ee30fc59d1 StaticDependenciesID=1d2cdaca3961b03fecb6c4726d8471a4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:23.9859258Z
+  Time since last request: 0.0003702 seconds.
+  importAddress: GUID: ba0d0e7a039f526499c356a3c5cd6d3f - Path: Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ba0d0e7a039f526499c356a3c5cd6d3f - Path: Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ba0d0e7a039f526499c356a3c5cd6d3f' -> (Import Result ID: '097046fd784e6a5734af40f4f55df08b') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb6eaf10369cefc7c059197cf90710df DependenciesID=9e050ec6abc37c3aad2b99890d35b2e3 StaticDependenciesID=3d45101f9ccac45a411d81a22ff55965 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.0029556Z
+  Time since last request: 0.000372 seconds.
+  importAddress: GUID: 8e32eb8d888633346b4593663542749a - Path: Assets/Settings/Build Profiles - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8e32eb8d888633346b4593663542749a - Path: Assets/Settings/Build Profiles - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8e32eb8d888633346b4593663542749a' -> (Import Result ID: 'd1854801aa0a7f1444100fbcaae3d13a') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67ecb23b979e924e454ee6dc0db678d0 DependenciesID=dee15c151c245fec19758f0d23bf79ac StaticDependenciesID=c0c4f31481dcda29a20f96d0128c4d5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.0209284Z
+  Time since last request: 0.0003656 seconds.
+  importAddress: GUID: c615706690ca87043ad593475e6db7ec - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c615706690ca87043ad593475e6db7ec - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c615706690ca87043ad593475e6db7ec' -> (Import Result ID: 'bcdc4afe80856e3526d9130687d3f087') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e0a764dbd03152bc4039f64242b1f45 DependenciesID=18a26cbe76acbcc62ec4bdea1274e256 StaticDependenciesID=053eda9a31b81ec67c0021e9baf2543a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.0434915Z
+  Time since last request: 0.0003629 seconds.
+  importAddress: GUID: 0d230cc8be529a542a08cb878ab14b18 - Path: Assets/Joystick Pack/Prefabs/Floating Joystick.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0d230cc8be529a542a08cb878ab14b18 - Path: Assets/Joystick Pack/Prefabs/Floating Joystick.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0d230cc8be529a542a08cb878ab14b18' -> (Import Result ID: 'dfdffa6081c2f1cebe580e4b76fff2fd') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=624b0449394b04128b179f10bdbafdce DependenciesID=38219c15d94aceaf12f1badc8c5fc247 StaticDependenciesID=b1544b318c8316e4fdc70fe441689a46 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.0641672Z
+  Time since last request: 0.0002512 seconds.
+  importAddress: GUID: 4dc3c614f4fbbc74e8a7524218bb39f5 - Path: Assets/Images/mainmenu.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4dc3c614f4fbbc74e8a7524218bb39f5 - Path: Assets/Images/mainmenu.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4dc3c614f4fbbc74e8a7524218bb39f5' -> (Import Result ID: '98964e2857b05486661efb82bbbbb2e7') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=210779ca488bac37a066560e6c6022d2 DependenciesID=b1ce1e689eb9482c6c8de9081730a4d1 StaticDependenciesID=6bf2a31fa6bd6e11c1796852cd43ded7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.0852664Z
+  Time since last request: 0.0003327 seconds.
+  importAddress: GUID: a37d705c8e9115e439ec799186182634 - Path: Assets/Joystick Pack/Examples/JoystickPlayerExample.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a37d705c8e9115e439ec799186182634 - Path: Assets/Joystick Pack/Examples/JoystickPlayerExample.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a37d705c8e9115e439ec799186182634' -> (Import Result ID: '63297d4e15df4270d0d1264dc723eb24') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c830904f33f28c83278a08ca4c1607d6 DependenciesID=568468b4d2f880dc896d03645d6e87cb StaticDependenciesID=5135ff5da2fc10bb2b2e07f40066dc0f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.1038406Z
+  Time since last request: 0.0003706 seconds.
+  importAddress: GUID: 3f9215ea0144899419cfbc0957140d3f - Path: Assets/DefaultVolumeProfile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3f9215ea0144899419cfbc0957140d3f - Path: Assets/DefaultVolumeProfile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3f9215ea0144899419cfbc0957140d3f' -> (Import Result ID: '50c70db636e4f237668741c68751fe2f') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd9963f93baf9f3cb8f0b1abf4cd3f47 DependenciesID=f6760684deede37712d7c53e1da45e32 StaticDependenciesID=31d9cc06f307ba3d8e78c1751c11f19a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.1209465Z
+  Time since last request: 0.000347 seconds.
+  importAddress: GUID: 5a71259a40885244a8fda03175513ba5 - Path: Assets/Joystick Pack/Examples - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5a71259a40885244a8fda03175513ba5 - Path: Assets/Joystick Pack/Examples - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5a71259a40885244a8fda03175513ba5' -> (Import Result ID: 'dadec929d10a6967c0b83a50327ba06a') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=800be21c44ab93a521ae5b90cfe5ee77 DependenciesID=68a571d933841ed0320618fc7e66ac51 StaticDependenciesID=5aa0db72ef5098b2cb31119f1c7b054c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.138955Z
+  Time since last request: 0.0003672 seconds.
+  importAddress: GUID: 3bf6d9f920f7458448a390f80318ebe6 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3bf6d9f920f7458448a390f80318ebe6 - Path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3bf6d9f920f7458448a390f80318ebe6' -> (Import Result ID: '14f3f73203c16c86176da0c58a0bcd70') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e74a14de4863e310a0113fbe3fc3e1a3 DependenciesID=8bb281e04c25c5d86c642271c46e928d StaticDependenciesID=1d8905261119bdbd3554787fdc54e7de 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.1633601Z
+  Time since last request: 0.0003518 seconds.
+  importAddress: GUID: 010a6e5305fa7004f89c5d317b7b47d4 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Plain.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 010a6e5305fa7004f89c5d317b7b47d4 - Path: Assets/Joystick Pack/Sprites/Handles/Handle_Plain.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 010a6e5305fa7004f89c5d317b7b47d4' -> (Import Result ID: '9ea60786820d5ae5835ef1436ab16d0f') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de42fd6d27c4974ba09165a5b881a5cf DependenciesID=90224c798acbde555f8be2cc27bea5e3 StaticDependenciesID=a100767060f201d9df8342795c29a178 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.2019032Z
+  Time since last request: 0.0166527 seconds.
+  importAddress: GUID: 3558c04d0a148234b87a5d4a75695209 - Path: Assets/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3558c04d0a148234b87a5d4a75695209 - Path: Assets/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3558c04d0a148234b87a5d4a75695209' -> (Import Result ID: '5031df022caa3943377ae11d2ef834ca') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b34405c80190a03dd492efd9c40f8f3 DependenciesID=9d45ed4a4d3d017514012f865af3a4df StaticDependenciesID=ff709c98c57a67130bc385e67e8b7cf1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-06-30T08:31:24.2192088Z
+  Time since last request: 0.0003798 seconds.
+  importAddress: GUID: 9bd6ea006e35bee458a0a062bbb9d765 - Path: Assets/Scripts/GameManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9bd6ea006e35bee458a0a062bbb9d765 - Path: Assets/Scripts/GameManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9bd6ea006e35bee458a0a062bbb9d765' -> (Import Result ID: 'b7fb51f1ceed28a9eb2ab8de52c07d7a') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b03989c7a4123e28276881c8b5a2c260 DependenciesID=99a1ca27ca17abfc44e90f6ad97a6905 StaticDependenciesID=3312e79e23c1603208cd61ce6562e67f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.51 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.77 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.523 seconds
+Domain Reload Profiling: 2346ms
+	BeginReloadAssembly (286ms)
+		DisableScriptedObjects (31ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (428ms)
+		LoadAssemblies (363ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (9ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1524ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (674ms)
+			ProcessInitializeOnLoadMethodAttributes (460ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 2.61 ms, found 6 plugins.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10732 unused Assets / (21.9 MB). Loaded Objects now: 11653.
+Memory consumption went from 472.1 MB to 450.2 MB.
+Total: 28.350000 ms (FindLiveObjects: 1.113600 ms CreateObjectMapping: 4.622700 ms MarkObjects: 16.150500 ms  DeleteObjects: 6.462200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.36 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 4.11 ms, found 6 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.847 seconds
+Domain Reload Profiling: 2690ms
+	BeginReloadAssembly (285ms)
+		DisableScriptedObjects (33ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (448ms)
+		LoadAssemblies (379ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1848ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (828ms)
+			ProcessInitializeOnLoadMethodAttributes (578ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Refreshing native plugins compatible for Editor in 2.69 ms, found 6 plugins.
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10732 unused Assets / (21.9 MB). Loaded Objects now: 11656.
+Memory consumption went from 472.8 MB to 450.9 MB.
+Total: 27.388800 ms (FindLiveObjects: 1.104900 ms CreateObjectMapping: 4.492000 ms MarkObjects: 15.358800 ms  DeleteObjects: 6.432100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
